@@ -1,4 +1,4 @@
-# ESP-Riders_Mecanum
+# ESP-Riders_Mecanum - Updated Nov 10, 2022
 
 https://youtu.be/-3dxDYtFfpw
 
@@ -25,3 +25,5 @@ switches/connectors.
 
 Power up is a two step process which involves first connecting the power to the ESP32 and ensuring a wifi link to your phone by loading the webpage,
 then second, connecting the same battery to the H-Bridges with a separate switch/connection.
+
+Udpate Nov 2022.  Edited to work with current Arduino IDE. Moved the pinmode statements above the LedcAttachPin statements.
