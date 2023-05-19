@@ -22,8 +22,8 @@ int PWM_Speed = 50; // initial speed PWM duty cycle                             
 #define MOTORRR_DIR 26 //  Direction
 #define MOTORLF_PWM 27 //  Speed
 #define MOTORLF_DIR 14 //  Direction
-#define MOTORRF_PWM 12 //  Speed
-#define MOTORRF_DIR 13 //  Direction
+#define MOTORRF_PWM 16 //  Speed                       // avoid use of 12
+#define MOTORRF_DIR 17 //  Direction
 
 
 // the actual values for "fast" and "slow" depend on the motor
