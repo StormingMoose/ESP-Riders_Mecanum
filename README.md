@@ -1,6 +1,7 @@
-# ESP-Riders_Mecanum - Updated Nov 10, 2022
+# ESP-Riders_Mecanum - Updated May 19, 2023
 
 https://youtu.be/-3dxDYtFfpw
+https://youtu.be/YHZRjCdB2Vg
 
 ESP-Riders Mecanum uses an ESP32 Dev kit module to control a small robot's direction and speed with two L9110S H-bridges to control 4 motors.
 
@@ -27,3 +28,4 @@ Power up is a two step process which involves first connecting the power to the 
 then second, connecting the same battery to the H-Bridges with a separate switch/connection.
 
 Udpate Nov 2022.  Edited to work with current Arduino IDE. Moved the pinmode statements above the LedcAttachPin statements.
+Update May 2023.  Changed the pin assignment to avoid pin 12.  Use 18 and 19 instead of 12 and 13. 
